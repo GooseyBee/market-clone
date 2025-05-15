@@ -10,7 +10,7 @@ body {
 }
 
 .media-info-msg {
-  postion: absolute;
+  postion: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -22,8 +22,8 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500 px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
