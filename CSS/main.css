@@ -46,7 +46,7 @@ main {
 }
 
 .write-btn {
-  background-color: --button-primary;
+  background-color: var(--button-primary);
   color: white;
   padding: 10px 15px 10px 15px;
   font-size: 15px;
@@ -60,5 +60,5 @@ main {
 }
 
 .write-btn:hover {
-  background-color: --button-hover;
+  background-color: var(--button-hover);
 }
